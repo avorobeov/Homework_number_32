@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Homework_number_32
 {
@@ -19,7 +15,7 @@ namespace Homework_number_32
             Console.ReadLine();
         }
 
-        private static int[] Shuffle(int [] numbers)
+        private static int[] Shuffle(int[] numbers)
         {
             Random random = new Random();
 
